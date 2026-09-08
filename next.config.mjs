@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-// On GitHub Pages this project deploys to https://aadhilnizar.github.io/porfolio,
+// On GitHub Pages this project deploys to https://aadhilnizar.github.io/portfolio,
 // so it needs a basePath in production. Locally (dev / `next start`) it stays "".
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? "/porfolio" : "";
+const basePath = isProd ? "/portfolio" : "";
 
 const nextConfig = {
   reactStrictMode: true,
